@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <header>
+        <nav class="flex justify-between items-center px-8 py-4 xl:px-30">
+            <div>
+                <h1 class="text-3xl font-semibold text-[var(--primary-color)]">Welcome</h1>
+            </div>
+            <div class="flex flex-1 justify-around max-w-[30%] gap-2 text-white">
+                <p class="hover:border-b rounded-xs p-1">Home</p>
+                <p class="hover:border-b rounded-xs p-1">About</p>
+                <p class="hover:border-b rounded-xs p-1">Service</p>
+                <p class="hover:border-b rounded-xs p-1">Desing</p>
+                <p class="hover:border-b rounded-xs p-1">Contact</p>
+            </div>
+            <div class="flex text-sm text-white">
+                <input class="p-2 rounded-none outline-none border border-[var(--primary-color)] rounded-l-sm"
+                    type="search" placeholder="Laptop">
+                <button class="bg-[var(--primary-color)] py-2 px-4 ">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex px-8 py-12 justify-between xl:px-30 ">
+        <section class="max-w-[40%] flex flex-col gap-3">
+            <h1 class="text-white text-3xl font-semibold">Wep Desing & Development</h1>
+            <h2 class="text-[var(--primary-color)] text-3xl font-semibold">Course</h2>
+            <p class="text-white text-xs max-w-[65%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                voluptate quia, fugit
+                laudantium nesciunt
+                esse saepe quo, </p>
+            <button class="self-start bg-[var(--primary-color)] text-white font-semibold px-6 py-1 rounded-lg">Join
+                us</button>
+        </section>
+
+        <section class="content-section-bg relative flex flex-col  z-20 rounded-lg p-5 gap-4 max-w-[30%] items-center">
+            <p class=" bg-white text-[var(--primary-color)] px-12 py-1 rounded-lg font-bold">Login Here</p>
+            <input class="text-sm w-46 outline-none border-b border-[var(--primary-color)] text-white " type="email"
+                name="" id="">
+            <input class="text-sm w-46 outline-none border-b border-[var(--primary-color)] text-white " type="password"
+                name="" id="">
+            <button class=" bg-[var(--primary-color)] text-white px-17 py-1 rounded-lg font-bold">Login</button>
+            <p class="text-white text-xs mx-2">Don't have an account? <a class="text-[var(--primary-color)]"
+                    href="">Sing up
+                    Here</a>
+            </p>
+            <p class="text-white text-xs">Login With</p>
+            <div class="flex gap-2">
+                <img class="border border-[var(--primary-color)] rounded-full" src="http://placehold.co/30x30" alt="">
+                <img class="border border-[var(--primary-color)] rounded-full" src="http://placehold.co/30x30" alt="">
+                <img class="border border-[var(--primary-color)] rounded-full" src="http://placehold.co/30x30" alt="">
+            </div>
+        </section>
+    </main>
+
+</body>
